@@ -1,0 +1,56 @@
+html{
+    box-sizing:border-box;
+}
+
+body{
+    background-image: url('newspaper.jpg');
+    font-family: 'Montserrat', sans-serif;
+}
+
+#container{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+#text-query{
+    font-family: 'Montserrat', sans-serif;
+    padding: 6px;
+    width: 60%;
+    height: 30px;
+}
+
+#search-button{
+    font-family: 'Montserrat', sans-serif;
+    width: 100px;
+    padding: 6px;
+    background-color: yellow;
+    border: 10px solid darkgoldenrod;
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+
+}
+#searchButton:hover{
+    background-color: rgba(255, 255, 0, 0.356);
+}
+
+#news-results{
+    text-align: left;
+    margin-top: 10px;
+    padding: 35px;
+    background-color: #FFF;
+}
+
+#more-button{
+    background-color:black;
+    color: white;
+    width: 80px;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+}
+
+#more-button:hover{
+    background-color: rgba(0,0,0,0.5);
+}
